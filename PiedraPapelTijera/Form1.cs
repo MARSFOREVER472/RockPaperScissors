@@ -6,5 +6,10 @@ namespace PiedraPapelTijera
         {
             InitializeComponent();
         }
+
+        private void EventoTomarDecisiones(object sender, EventArgs e)
+        {
+            // EN INSTANTES...
+        }
     }
 }
