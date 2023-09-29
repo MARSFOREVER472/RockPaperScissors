@@ -47,6 +47,7 @@
             button1.Name = "button1";
             button1.Size = new Size(100, 50);
             button1.TabIndex = 0;
+            button1.Tag = "ROCK";
             button1.Text = "Piedra";
             button1.UseVisualStyleBackColor = true;
             button1.Click += EventoTomarDecisiones;
@@ -57,6 +58,7 @@
             button2.Name = "button2";
             button2.Size = new Size(100, 50);
             button2.TabIndex = 1;
+            button2.Tag = "PAPER";
             button2.Text = "Papel";
             button2.UseVisualStyleBackColor = true;
             button2.Click += EventoTomarDecisiones;
@@ -67,6 +69,7 @@
             button3.Name = "button3";
             button3.Size = new Size(100, 50);
             button3.TabIndex = 2;
+            button3.Tag = "SCISSORS";
             button3.Text = "Tijera";
             button3.UseVisualStyleBackColor = true;
             button3.Click += EventoTomarDecisiones;
@@ -76,6 +79,7 @@
             Jugador.Location = new Point(340, 225);
             Jugador.Name = "Jugador";
             Jugador.Size = new Size(100, 100);
+            Jugador.SizeMode = PictureBoxSizeMode.StretchImage;
             Jugador.TabIndex = 3;
             Jugador.TabStop = false;
             // 
@@ -84,6 +88,7 @@
             Rival.Location = new Point(340, 75);
             Rival.Name = "Rival";
             Rival.Size = new Size(100, 100);
+            Rival.SizeMode = PictureBoxSizeMode.StretchImage;
             Rival.TabIndex = 4;
             Rival.TabStop = false;
             // 
